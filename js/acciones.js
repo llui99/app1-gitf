@@ -1,6 +1,6 @@
 // JavaScript Document
 
- $(document).ready(function (e)){
+ $(document).ready(function (e){
 	 document.addEventListener("deviceready",function(){
 		 $('#disp table td').eq(3).text(device.model);
 		 $('#disp table td').eq(5).text(device.cordova);
@@ -21,13 +21,13 @@
 		 },false);//se desconecto
 		 
 		 
-	 },false;//ready device
+	 },false);//ready device
 	 
 	 
  });//document
  
  function escribehistoria(accion){
-	 $('#eHistoria').append('<li>'+accion+'</li>'>);
+	 $('#eHistoria').append('<li>'+accion+'</li>');
  }
  
 	 
