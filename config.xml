@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <widget xmlns = "http://www.w3.org/ns/widgets"
-xmnls:gap ="http://phonegap.com/ns/1.0"
+xmlns:gap ="http://phonegap.com/ns/1.0"
 id ="com.phonegap.app1"
 version ="1.0.0">
 
 <name> app1-2018 Datos del dispositivo </name>
+
 <description>
 Aplicacion que muestra los datos del dispositivo
 </description>
+
 <author href="https://build.phonegap.com" email="luis_34flores1@hotmail.com">
 Luis Flores Vivaldo
 </author>
+
 <!--personaliza la aplicacion y plataforma -->
 <preference name="orientation"  value="default"/>
 <!--preference name="orientation"  value="portatil"/>
